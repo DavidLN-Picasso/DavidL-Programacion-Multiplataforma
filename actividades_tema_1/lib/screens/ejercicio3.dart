@@ -19,10 +19,8 @@ class Ejercicio3 extends StatelessWidget {
         ),
 
         // Cuerpo del Programa
-
-        // Para que se vean como si estuviesen en columnas hay que ponerlas en filas entiendo yo
-
-        body: Center(child: Row(
+        
+        body: Center(child: Column(
           spacing: 14,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

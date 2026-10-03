@@ -65,6 +65,11 @@ flutter:
     - assets/images/pokemon_logo.jpg
     - assets/images/sobble.jpg
     - assets/images/delibird.png
+    - assets/images/ejercicio5/tepig.jpg
+    - assets/images/ejercicio5/clodsire.jpg
+    - assets/images/ejercicio5/copperajah.jpg
+    - assets/images/ejercicio5/pidove.jpg
+    - assets/images/ejercicio5/spheal.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
