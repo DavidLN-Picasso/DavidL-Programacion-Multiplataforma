@@ -10,7 +10,7 @@ class Ejercicio1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
+      title: 'Ejercicio 1',
       home: Scaffold(
 
         // Barra Superior
