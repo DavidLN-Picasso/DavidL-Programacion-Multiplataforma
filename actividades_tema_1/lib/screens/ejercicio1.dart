@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'menu_lateral.dart';
 
 void main() => runApp(const Ejercicio1());
 
@@ -10,12 +12,27 @@ class Ejercicio1 extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       home: Scaffold(
+
+        // Barra Superior
+
         appBar: AppBar(
-          title: const Text('Material App Bar'),
+          title: Text('Ejercicio 1'),
         ),
-        body: const Center(
-          child: Text('Hello World'),
+
+        // Cuerpo del Programa
+
+        body: Column(
+          spacing: 14,
+          children: [
+            Text("David liñán Núñez",style: GoogleFonts.aboreto(textStyle: TextStyle(fontSize: 23))),
+            Text("https://github.com/DavidLN-Picasso/DavidL-Programacion-Multiplataforma",style: GoogleFonts.xanhMono())
+          ],
         ),
+
+        // Drawer
+
+        drawer: MiDrawer(),
+
       ),
     );
   }
