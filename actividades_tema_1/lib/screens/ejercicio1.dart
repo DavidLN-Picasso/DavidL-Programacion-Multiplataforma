@@ -24,7 +24,7 @@ class Ejercicio1 extends StatelessWidget {
         body: Column(
           spacing: 14,
           children: [
-            Text("David liñán Núñez",style: GoogleFonts.aboreto(textStyle: TextStyle(fontSize: 23))),
+            Text("David Liñán Núñez",style: GoogleFonts.aboreto(textStyle: TextStyle(fontSize: 23))),
             Text("https://github.com/DavidLN-Picasso/DavidL-Programacion-Multiplataforma",style: GoogleFonts.xanhMono())
           ],
         ),
