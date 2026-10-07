@@ -4,6 +4,8 @@ import 'ejercicio2.dart';
 import 'ejercicio3.dart';
 import 'ejercicio4.dart';
 import 'ejercicio5.dart';
+import 'ejercicio6.dart';
+import 'ejercicio7.dart';
 
 void main() => runApp(MiDrawer());
 
@@ -111,8 +113,39 @@ class MiDrawer extends StatelessWidget {
               builder: (BuildContext context) => Ejercicio5()));
 
             },
-          )
+          ),
 
+          // Ejercicio 6
+
+          ListTile(
+            title: Text("Ejercicio 6"),
+
+            // Acción que hace al pulsar el botón
+
+            onTap: () {
+
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+              builder: (BuildContext context) => Ejercicio6()));
+
+            },
+          ),
+
+          // Ejercicio 7
+
+          ListTile(
+            title: Text("Ejercicio 7"),
+
+            // Acción que hace al pulsar el botón
+
+            onTap: () {
+
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+              builder: (BuildContext context) => Ejercicio7()));
+
+            },
+          )
         ],
 
       ),
