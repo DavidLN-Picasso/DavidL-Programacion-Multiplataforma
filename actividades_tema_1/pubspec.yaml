@@ -71,6 +71,12 @@ flutter:
     - assets/images/ejercicio5/copperajah.jpg
     - assets/images/ejercicio5/pidove.jpg
     - assets/images/ejercicio5/spheal.jpg
+    - assets/images/ejercicio8/pokeball.jpg
+    - assets/images/ejercicio8/superball.jpg
+    - assets/images/ejercicio8/ultraball.jpg
+    - assets/images/ejercicio8/mallaball.jpg
+    - assets/images/ejercicio8/masterball.jpg
+    - assets/images/ejercicio8/buceoball.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
