@@ -15,12 +15,29 @@ class Ejercicio9 extends StatelessWidget {
         // Barra Superior
 
         appBar: AppBar(
-          title: Text('Ejercicio 9'),
+          title: Text('Challenge', style: TextStyle(color: Colors.white)),
+          backgroundColor: Colors.blue,
         ),
 
         // Cuerpo del Programa
         
-        body: Text("data"),
+        body: Container(
+          decoration: BoxDecoration(
+            color: Colors.cyan,
+            borderRadius: BorderRadius.only (bottomRight: Radius.circular(50), bottomLeft: Radius.circular(50)),
+            boxShadow: [
+              BoxShadow(
+                color: const Color.fromARGB(255, 129, 174, 179),
+                offset: Offset(6, 10),
+                blurRadius: 6,
+              )
+            ]
+          ),
+          width: double.infinity,
+          alignment: Alignment.center,
+          height: 120,
+          child: Text("Soy un pedazo de Header", style: TextStyle(color: Colors.white, fontSize: 25)),
+        ),
 
         // Drawer
 
