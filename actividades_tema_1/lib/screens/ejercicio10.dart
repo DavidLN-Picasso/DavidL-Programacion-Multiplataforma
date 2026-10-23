@@ -37,13 +37,13 @@ class Ejercicio10State extends State<Ejercicio10> {
     final altoPantalla = size.height;
 
     return MaterialApp(
-      title: 'Ejercicio 11',
+      title: 'Ejercicio 10',
       home: Scaffold(
 
         // Barra Superior
 
         appBar: AppBar(
-          title: Text('Ejercicio 11'),
+          title: Text('Ejercicio 10'),
         ),
 
         // Cuerpo del Programa

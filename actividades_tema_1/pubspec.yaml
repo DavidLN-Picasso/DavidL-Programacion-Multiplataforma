@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   google_fonts: ^9.0.0
   extra_weight_text_style: ^0.1.0
+  url_launcher: ^6.3.3
 
 dev_dependencies:
   flutter_test:
@@ -77,6 +78,16 @@ flutter:
     - assets/images/ejercicio8/mallaball.jpg
     - assets/images/ejercicio8/masterball.jpg
     - assets/images/ejercicio8/buceoball.jpg
+    - assets/images/ejercicio11/meowth_perfil.png
+    - assets/images/ejercicio11/tepig_portrait.png
+    - assets/images/ejercicio11/krokodile_portrait.png
+    - assets/images/ejercicio11/pidove_portrait.png
+    - assets/images/ejercicio11/snorlax_portrait.png
+    - assets/images/ejercicio11/clodsire_portrait.png
+    - assets/images/ejercicio11/sawk_portrait.png
+    - assets/images/ejercicio11/xatu_portrait.png
+    - assets/images/ejercicio11/delibird_portrait.png
+    - assets/images/ejercicio11/murkrow_portrait.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
