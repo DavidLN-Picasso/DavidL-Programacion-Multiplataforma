@@ -1,4 +1,3 @@
-import 'package:actividades_tema_1/screens/menu_lateral.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const Ejercicio7());
@@ -8,9 +7,7 @@ class Ejercicio7 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Ejercicio 7',
-      home: Scaffold(
+    return Scaffold(
 
         // Barra Superior
 
@@ -30,12 +27,7 @@ class Ejercicio7 extends StatelessWidget {
 
           ],
         )),
-        
-         // Drawer
 
-        drawer: MiDrawer(),
-
-        ),
-      );
+        );
   }
 }

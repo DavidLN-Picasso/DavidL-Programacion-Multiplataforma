@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'menu_lateral.dart';
 void main() => runApp(const Ejercicio4());
 
 class Ejercicio4 extends StatelessWidget {
@@ -7,9 +6,7 @@ class Ejercicio4 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Ejercicio 4',
-      home: Scaffold(
+    return Scaffold(
           
         // Barra Superior
 
@@ -30,12 +27,7 @@ class Ejercicio4 extends StatelessWidget {
             Icon(Icons.card_giftcard)
           ],
         )),
-
-        // Drawer
-
-        drawer: MiDrawer(),
         
-      ),
-    );
+      );
   }
 }

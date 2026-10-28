@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'menu_lateral.dart';
 
 void main() => runApp(const Ejercicio8());
 
@@ -14,10 +13,7 @@ class Ejercicio8 extends StatelessWidget {
     final altoTotal = size.height;
     bool esMovil = anchoTotal < 1000 && altoTotal < 4500;
 
-    return MaterialApp(
-      title: 'Ejercicio 8',
-
-      home: Scaffold(
+    return Scaffold(
         
         // Barra Superior
 
@@ -100,12 +96,7 @@ class Ejercicio8 extends StatelessWidget {
 
           ],
         ),
-
-        // Drawer
-
-        drawer: MiDrawer(),
         
-      ),
-    );
+      );
   }
 }

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'menu_lateral.dart';
 
 void main() {
   runApp(const Ejercicio10());
@@ -36,9 +35,7 @@ class Ejercicio10State extends State<Ejercicio10> {
     final size = MediaQuery.of(context).size;
     final altoPantalla = size.height;
 
-    return MaterialApp(
-      title: 'Ejercicio 10',
-      home: Scaffold(
+    return Scaffold(
 
         // Barra Superior
 
@@ -73,12 +70,6 @@ class Ejercicio10State extends State<Ejercicio10> {
             ],
           ),
         ),
-
-        // Drawer
-
-        drawer: MiDrawer(),
-
-      ),
-    );
+      );
   }
 }

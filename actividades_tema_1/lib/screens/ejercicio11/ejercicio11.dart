@@ -12,10 +12,7 @@ class Ejercicio11 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      
-      title: 'Ejercicio 11',
-      home: Scaffold(
+    return Scaffold(
           
         // Barra Superior
 
@@ -43,12 +40,6 @@ class Ejercicio11 extends StatelessWidget {
 
           ],
         ),
-
-        // Drawer
-
-        drawer: MiDrawer(),
-
-      ),
-    );
+      );
   }
 }
