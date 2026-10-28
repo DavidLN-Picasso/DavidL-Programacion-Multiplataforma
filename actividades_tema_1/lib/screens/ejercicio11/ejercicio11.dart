@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import '../menu_lateral.dart';
 import 'banner.dart';
 import 'textos.dart';
 import 'cajas.dart';
 import 'historias.dart';
+import 'iconos.dart';
+import 'publicaciones.dart';
 
 void main() => runApp(const Ejercicio11());
 
@@ -36,7 +37,9 @@ class Ejercicio11 extends StatelessWidget {
               BannerPerfil(),
               Textos(),
               Cajas(),
-              Historias()
+              Historias(),
+              Iconos(),
+              Publicaciones()
 
           ],
         ),

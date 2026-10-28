@@ -12,7 +12,7 @@ class Cajas extends StatelessWidget {
     final anchoPantalla = size.width;
     // final altoPantalla = size.height;
 
-    return Padding(padding: EdgeInsetsGeometry.only(bottom: 20) ,child: Row(
+    return Row(
     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
     children: [
 
@@ -33,6 +33,6 @@ class Cajas extends StatelessWidget {
       child: Align(alignment: Alignment.center, child: Icon(Icons.keyboard_arrow_down))),
 
     ],
-    ));
+    );
   }
 }

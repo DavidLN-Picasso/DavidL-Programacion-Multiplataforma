@@ -38,7 +38,6 @@ dependencies:
   extra_weight_text_style: ^0.1.0
   url_launcher: ^6.3.3
   flutter_launcher_icons: ^0.14.4
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -89,6 +88,12 @@ flutter:
     - assets/images/ejercicio11/xatu_portrait.png
     - assets/images/ejercicio11/delibird_portrait.png
     - assets/images/ejercicio11/murkrow_portrait.png
+    - assets/images/ejercicio11/conejo.png
+    - assets/images/ejercicio11/armino.png
+    - assets/images/ejercicio11/hurraca.png
+    - assets/images/ejercicio11/diosmantis.png
+    - assets/images/ejercicio11/lobato.png
+    - assets/images/ejercicio11/cucaracha.png
     - assets/images/tepig_poyo.jpg
   #   - images/a_dot_ham.jpeg
 
