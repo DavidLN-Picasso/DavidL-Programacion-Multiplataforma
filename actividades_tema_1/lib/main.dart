@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
 
+      debugShowCheckedModeBanner: false, 
       title: 'Página Principal',
       home: Scaffold(
 
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
 
       // Drawer
 
-      drawer: MiDrawer(),
+      drawer: MiDrawer()
       )
     );
   }

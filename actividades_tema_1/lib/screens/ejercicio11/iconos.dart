@@ -13,7 +13,7 @@ class Iconos extends StatelessWidget {
         Icon(Icons.grid_on),
         Icon(Icons.video_camera_back_outlined),
         Icon(Icons.shopping_bag_rounded),
-        Icon(Icons.supervised_user_circle_outlined),
+        Icon(Icons.person_pin_outlined),
 
       ],
       )));

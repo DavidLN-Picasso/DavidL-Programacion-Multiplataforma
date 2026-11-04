@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const Cajas());
+void main() => runApp(const Botones());
 
-class Cajas extends StatelessWidget {
-  const Cajas({super.key});
+class Botones extends StatelessWidget {
+  const Botones({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'menu_lateral.dart';
 
 void main() => runApp(const Ejercicio9());
 
@@ -7,7 +8,11 @@ class Ejercicio9 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return MaterialApp(
+
+      debugShowCheckedModeBanner: false, 
+      title: 'Ejercicio 9',
+      home: Scaffold(
         
         // Barra Superior
 
@@ -36,6 +41,10 @@ class Ejercicio9 extends StatelessWidget {
           child: Text("Soy un pedazo de Header", style: TextStyle(color: Colors.white, fontSize: 25)),
         ),
         
-      );
+        // Drawer
+
+        drawer: MiDrawer()
+
+      ));
   }
 }

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'banner.dart';
 import 'textos.dart';
-import 'cajas.dart';
+import 'botones.dart';
 import 'historias.dart';
 import 'iconos.dart';
 import 'publicaciones.dart';
+import '../menu_lateral.dart';
 
 void main() => runApp(const Ejercicio11());
 
@@ -13,7 +14,11 @@ class Ejercicio11 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return MaterialApp(
+
+      debugShowCheckedModeBanner: false, 
+      title: 'Ejercicio 11',
+      home: Scaffold(
           
         // Barra Superior
 
@@ -36,13 +41,18 @@ class Ejercicio11 extends StatelessWidget {
 
               BannerPerfil(),
               Textos(),
-              Cajas(),
+              Botones(),
               Historias(),
               Iconos(),
               Publicaciones()
 
           ],
         ),
-      );
+
+        // Drawer
+
+        drawer: MiDrawer()
+
+      ));
   }
 }

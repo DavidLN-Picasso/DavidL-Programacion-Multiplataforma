@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'menu_lateral.dart';
 
 void main() => runApp(const Ejercicio2());
 
@@ -7,7 +8,11 @@ class Ejercicio2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return MaterialApp(
+
+      debugShowCheckedModeBanner: false, 
+      title: 'Ejercicio 2',
+      home: Scaffold(
         
         // Barra Superior
 
@@ -23,8 +28,12 @@ class Ejercicio2 extends StatelessWidget {
             Image(image: AssetImage("assets/images/delibird.png")),
             Text("David Liñán Núñez")
           ],
-        )
+        ),
+
+        // Drawer
+
+        drawer: MiDrawer()
         
-      );
+      ));
 
 }}
