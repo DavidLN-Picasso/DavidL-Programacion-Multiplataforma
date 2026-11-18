@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         "/ejercicio10" : (context) => Ejercicio10(),
         "/ejercicio11" : (context) => Ejercicio11(),
         "/ejercicio12" : (context) => Ejercicio12(),
-        "/ejercicio13" : (context) => Ejercicio11(),
+        "/ejercicio13" : (context) => Ejercicio13(),
 
       },
     );

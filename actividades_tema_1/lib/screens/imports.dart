@@ -30,3 +30,4 @@ export 'ejercicio11/iconos.dart';
 export 'ejercicio11/publicaciones.dart';
 
 export 'ejercicio12.dart';
+export 'ejercicio13.dart';

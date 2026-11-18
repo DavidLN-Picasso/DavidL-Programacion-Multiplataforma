@@ -9,6 +9,7 @@ class Ejercicio12 extends StatefulWidget {
 
 
 class _Ejercicio12 extends State<Ejercicio12> {
+
   int points = 0;
   late String randomName;
   late Color randomColor;
@@ -40,10 +41,11 @@ class _Ejercicio12 extends State<Ejercicio12> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    return Scaffold(
         backgroundColor: Colors.white,
+        appBar: AppBar(
+          title: Text("Colores Random"),
+        ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
@@ -73,8 +75,12 @@ class _Ejercicio12 extends State<Ejercicio12> {
             ),
           ],
         ),
-      ),
-    );
+
+        // Llamo a mi Drawer
+
+        drawer: MiDrawer(),
+
+      );
   }
 
 
