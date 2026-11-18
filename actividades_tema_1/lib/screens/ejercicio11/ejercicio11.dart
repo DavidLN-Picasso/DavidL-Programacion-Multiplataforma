@@ -1,24 +1,11 @@
-import 'package:flutter/material.dart';
-import 'banner.dart';
-import 'textos.dart';
-import 'botones.dart';
-import 'historias.dart';
-import 'iconos.dart';
-import 'publicaciones.dart';
-import '../menu_lateral.dart';
-
-void main() => runApp(const Ejercicio11());
+import '../imports.dart';
 
 class Ejercicio11 extends StatelessWidget {
   const Ejercicio11({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-
-      debugShowCheckedModeBanner: false, 
-      title: 'Ejercicio 11',
-      home: Scaffold(
+    return Scaffold(
           
         // Barra Superior
 
@@ -53,6 +40,6 @@ class Ejercicio11 extends StatelessWidget {
 
         drawer: MiDrawer()
 
-      ));
+      );
   }
 }

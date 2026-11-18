@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const Historias());
-
 class Historias extends StatelessWidget {
   const Historias({super.key});
 

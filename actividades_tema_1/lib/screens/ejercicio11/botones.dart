@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const Botones());
-
 class Botones extends StatelessWidget {
   const Botones({super.key});
 

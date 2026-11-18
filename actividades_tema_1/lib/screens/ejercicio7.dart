@@ -1,18 +1,11 @@
-import 'package:flutter/material.dart';
-import 'menu_lateral.dart';
-
-void main() => runApp(const Ejercicio7());
+import 'imports.dart';
 
 class Ejercicio7 extends StatelessWidget {
   const Ejercicio7({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-
-      debugShowCheckedModeBanner: false, 
-      title: 'Ejercicio 7',
-      home: Scaffold(
+    return Scaffold(
 
         // Barra Superior
 
@@ -37,6 +30,6 @@ class Ejercicio7 extends StatelessWidget {
 
         drawer: MiDrawer()
 
-        ));
+        );
   }
 }

@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'screens/menu_lateral.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'screens/imports.dart';
 
 void main() {
   runApp(MyApp());
