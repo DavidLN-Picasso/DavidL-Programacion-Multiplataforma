@@ -14,28 +14,30 @@ class MyApp extends StatelessWidget {
 
       debugShowCheckedModeBanner: false, 
       title: 'Página Principal',
-      home: Scaffold(
 
-      // Barra Superior
+      // Rutas Nombradas
 
-      appBar: AppBar(
-        title: Center(child: Text("Página Principal"),),
-       ),
+      initialRoute: "/",
+      routes: {
 
-      // Cuerpo del Programa
+        "/": (context) => HomeScreen(),
+        "/ejercicio1" : (context) => Ejercicio1(),
+        "/ejercicio2" : (context) => Ejercicio2(),
+        "/ejercicio3" : (context) => Ejercicio3(),
+        "/ejercicio4" : (context) => Ejercicio4(),
+        "/ejercicio5" : (context) => Ejercicio5(),
+        "/ejercicio6" : (context) => Ejercicio6(),
+        "/ejercicio7" : (context) => Ejercicio7(),
+        "/ejercicio8" : (context) => Ejercicio8(),
+        "/ejercicio9" : (context) => Ejercicio9(),
+        "/ejercicio10" : (context) => Ejercicio10(),
+        "/ejercicio11" : (context) => Ejercicio11(),
+        "/ejercicio12" : (context) => Ejercicio12(),
+        "/ejercicio13" : (context) => Ejercicio11(),
 
-      body: Center(child: Text("Parte Principal",style: GoogleFonts.bitcountSingle(textStyle: TextStyle(
-        fontSize: 40,
-        color: Colors.blue,
-        fontStyle: FontStyle.italic,
-        decoration: TextDecoration.underline,
-      ),))),
-
-      // Drawer
-
-      drawer: MiDrawer()
-      )
+      },
     );
   }
+
 }
 

@@ -32,14 +32,7 @@ class MiDrawer extends StatelessWidget {
             title: Text("Ejercicio 1"),
 
             // Acción que hace al pulsar el botón
-
-            onTap: () {
-
-              Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => Ejercicio1()));
-
-            },
+            onTap: () {Navigator.pushNamed(context, "/ejercicio1");},
           ),
 
           // Ejercicio 2
@@ -49,13 +42,7 @@ class MiDrawer extends StatelessWidget {
 
             // Acción que hace al pulsar el botón
 
-            onTap: () {
-
-              Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => Ejercicio2()));
-
-            },
+            onTap: () {Navigator.pushNamed(context, "/ejercicio2");},
           ),
 
           // Ejercicio 3
@@ -65,13 +52,7 @@ class MiDrawer extends StatelessWidget {
 
             // Acción que hace al pulsar el botón
 
-            onTap: () {
-
-              Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => Ejercicio3()));
-
-            },
+            onTap: () {Navigator.pushNamed(context, "/ejercicio3");},
           ),
 
           // Ejercicio 4
@@ -81,13 +62,7 @@ class MiDrawer extends StatelessWidget {
 
             // Acción que hace al pulsar el botón
 
-            onTap: () {
-
-              Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => Ejercicio4()));
-
-            },
+            onTap: () {Navigator.pushNamed(context, "/ejercicio4");},
           ),
 
           // Ejercicio 5
@@ -97,13 +72,7 @@ class MiDrawer extends StatelessWidget {
 
             // Acción que hace al pulsar el botón
 
-            onTap: () {
-
-              Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => Ejercicio5()));
-
-            },
+            onTap: () {Navigator.pushNamed(context, "/ejercicio5");},
           ),
 
           // Ejercicio 6
@@ -113,13 +82,7 @@ class MiDrawer extends StatelessWidget {
 
             // Acción que hace al pulsar el botón
 
-            onTap: () {
-
-              Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => Ejercicio6()));
-
-            },
+            onTap: () {Navigator.pushNamed(context, "/ejercicio6");},
           ),
 
           // Ejercicio 7
@@ -129,13 +92,7 @@ class MiDrawer extends StatelessWidget {
 
             // Acción que hace al pulsar el botón
 
-            onTap: () {
-
-              Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => Ejercicio7()));
-
-            },
+            onTap: () {Navigator.pushNamed(context, "/ejercicio7");},
           ),
 
           // Ejercicio 8
@@ -145,13 +102,7 @@ class MiDrawer extends StatelessWidget {
 
             // Acción que hace al pulsar el botón
 
-            onTap: () {
-
-              Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => Ejercicio8()));
-
-            },
+            onTap: () {Navigator.pushNamed(context, "/ejercicio8");},
           ),
 
           // Ejercicio 9
@@ -161,13 +112,7 @@ class MiDrawer extends StatelessWidget {
 
             // Acción que hace al pulsar el botón
 
-            onTap: () {
-
-              Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => Ejercicio9()));
-
-            },
+            onTap: () {Navigator.pushNamed(context, "/ejercicio9");},
           ),
 
           // Ejercicio 10
@@ -177,13 +122,7 @@ class MiDrawer extends StatelessWidget {
 
             // Acción que hace al pulsar el botón
 
-            onTap: () {
-
-              Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => Ejercicio10()));
-
-            },
+            onTap: () {Navigator.pushNamed(context, "/ejercicio10");},
           ),
 
           // Ejercicio 11
@@ -193,14 +132,24 @@ class MiDrawer extends StatelessWidget {
 
             // Acción que hace al pulsar el botón
 
-            onTap: () {
+            onTap: () {Navigator.pushNamed(context, "/ejercicio11");},
+          ),
 
-              Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => Ejercicio11()));
+          ListTile(
+            title: Text("Ejercicio 12"),
 
-            },
-          )
+            // Acción que hace al pulsar el botón
+
+            onTap: () {Navigator.pushNamed(context, "/ejercicio12");},
+          ),
+
+          ListTile(
+            title: Text("Ejercicio 13"),
+
+            // Acción que hace al pulsar el botón
+
+            onTap: () {Navigator.pushNamed(context, "/ejercicio13");},
+          ),
 
         ],
 
