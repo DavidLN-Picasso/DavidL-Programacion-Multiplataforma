@@ -15,19 +15,19 @@ class Botones extends StatelessWidget {
     children: [
 
       Container(margin: EdgeInsets.all(0), width: anchoPantalla * 0.23,
-      decoration: BoxDecoration(border: Border.all(width: 2, color: Colors.grey), borderRadius: BorderRadius.circular(3)),
+      decoration: BoxDecoration(border: Border.all(width: 2, color: Colors.grey), borderRadius: BorderRadius.circular(3), color: Colors.white),
       child: Align(alignment: Alignment.center, child: Text("Siguiendo v", style: TextStyle(fontWeight: FontWeight.bold),))),
       
       Container(margin: EdgeInsets.all(0), width: anchoPantalla * 0.23,
-      decoration: BoxDecoration(border: Border.all(width: 2, color: Colors.grey), borderRadius: BorderRadius.circular(3)),
+      decoration: BoxDecoration(border: Border.all(width: 2, color: Colors.grey), borderRadius: BorderRadius.circular(3), color: Colors.white),
       child: Align(alignment: Alignment.center, child: Text("Mensajes", style: TextStyle(fontWeight: FontWeight.bold),))),
       
       Container(margin: EdgeInsets.all(0), width: anchoPantalla * 0.23,
-      decoration: BoxDecoration(border: Border.all(width: 2, color: Colors.grey), borderRadius: BorderRadius.circular(3)),
+      decoration: BoxDecoration(border: Border.all(width: 2, color: Colors.grey), borderRadius: BorderRadius.circular(3), color: Colors.white),
       child: Align(alignment: Alignment.center, child: Text("Correos", style: TextStyle(fontWeight: FontWeight.bold),))),
 
       Container(margin: EdgeInsets.all(0), width: anchoPantalla * 0.1,
-      decoration: BoxDecoration(border: Border.all(width: 2, color: Colors.grey), borderRadius: BorderRadius.circular(3)),
+      decoration: BoxDecoration(border: Border.all(width: 2, color: Colors.grey), borderRadius: BorderRadius.circular(3), color: Colors.white),
       child: Align(alignment: Alignment.center, child: Icon(Icons.keyboard_arrow_down))),
 
     ],

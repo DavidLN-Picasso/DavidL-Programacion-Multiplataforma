@@ -13,7 +13,7 @@ class Ejercicio11 extends StatelessWidget {
           title: Row( children: [
             
             Spacer(),
-            Text("Ejercicio11"),
+            Text("Ejercicio11", style: Theme.of(context).textTheme.titleSmall),
             Icon(Icons.verified, color: Colors.cyan),
             Spacer(),           
             Icon(Icons.more_horiz)

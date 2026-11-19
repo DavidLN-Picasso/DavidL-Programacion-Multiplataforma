@@ -17,7 +17,6 @@ class Ejercicio8 extends StatelessWidget {
 
         appBar: AppBar(
           title: Text('Ejemplo de Filas y Columnas Anidadas', style: TextStyle(fontSize: esMovil ? 16 : 28)), 
-          backgroundColor: Colors.cyan,
         ),
 
         // Cuerpo del Programa

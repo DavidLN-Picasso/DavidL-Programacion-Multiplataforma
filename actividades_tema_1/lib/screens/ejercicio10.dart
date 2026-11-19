@@ -37,7 +37,7 @@ class Ejercicio10State extends State<Ejercicio10> {
         // Barra Superior
 
         appBar: AppBar(
-          title: Text('Ejercicio 10'),
+          title: Text('Ejercicio 10', style: Theme.of(context).textTheme.titleSmall),
         ),
 
         // Cuerpo del Programa

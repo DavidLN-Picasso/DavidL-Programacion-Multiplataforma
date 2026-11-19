@@ -2,28 +2,44 @@ import '../screens/imports.dart';
 
 class MiTema {
 
+  // Tema Claro
+
   static ThemeData get modoClaro {
 
     return ThemeData(
 
       useMaterial3: true,
-      colorScheme: ColorScheme.fromSeed(seedColor: Colors.cyan,
-        brightness: Brightness.light),
-      scaffoldBackgroundColor: Color.fromARGB(255, 145, 238, 238),
-
+      scaffoldBackgroundColor: MiPaleta.colorFondo,
+      appBarTheme: AppBarTheme(
+        backgroundColor: MiPaleta.fondoAppBar,
+        iconTheme: IconThemeData(color: MiPaleta.iconoOscuro),
+        ),
+      textTheme: TextTheme(
+        titleSmall: TextStyle(color: MiPaleta.tituloAppBar, fontSize: 22),
+        bodyMedium: TextStyle(color: MiPaleta.textoClaro),
+      ),
+      // listTileTheme: ListTileThemeData(tileColor: MiPaleta.colorFondo)
     );
   }
 
-  static ThemeData get modoOscuro {
+  // Tema Oscuro
+
+ /* static ThemeData get modoOscuro {
 
     return ThemeData(
 
       useMaterial3: true,
-      colorScheme: ColorScheme.fromSeed(seedColor:  Color.fromARGB(255, 173, 221, 228),
-        brightness: Brightness.dark),
-      scaffoldBackgroundColor: Color.fromARGB(255, 28, 32, 32),
-
+      scaffoldBackgroundColor: MiPaleta.colorFondoOscuro,
+      appBarTheme: AppBarTheme(
+        backgroundColor: MiPaleta.fondoAppBarOscuro,
+        iconTheme: IconThemeData(color: MiPaleta.iconoOscuro),
+      ),
+      textTheme: TextTheme(
+        titleSmall: TextStyle(color: MiPaleta.tituloAppBarOscuro, fontSize: 22),
+        bodyMedium: TextStyle(color: MiPaleta.textoOscuro),
+      ),
+      listTileTheme: ListTileThemeData(tileColor: MiPaleta.listTileFondoOscuro)
     );
-  }
+  } */
 
 }

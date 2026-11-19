@@ -15,6 +15,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false, 
       title: 'Página Principal',
 
+      theme: MiTema.modoClaro,
+
       // Rutas Nombradas
 
       initialRoute: "/",

@@ -6,7 +6,7 @@ class Iconos extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(padding: EdgeInsetsGeometry.only(bottom: 10) ,
-      child: Container(decoration: BoxDecoration(border: Border.all(width: 1, color: Colors.grey)),
+      child: Container(decoration: BoxDecoration(border: Border.all(width: 1, color: Colors.grey), color: Colors.white),
       child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
 

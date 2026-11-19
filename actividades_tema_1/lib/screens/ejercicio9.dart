@@ -10,7 +10,7 @@ class Ejercicio9 extends StatelessWidget {
         // Barra Superior
 
         appBar: AppBar(
-          title: Text('Challenge', style: TextStyle(color: Colors.white)),
+          title: Text('Challenge', style: Theme.of(context).textTheme.titleSmall),
           backgroundColor: Colors.blue,
         ),
 

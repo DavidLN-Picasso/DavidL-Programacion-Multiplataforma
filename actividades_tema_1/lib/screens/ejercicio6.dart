@@ -10,7 +10,7 @@ class Ejercicio6 extends StatelessWidget {
         // Barra Superior
 
         appBar: AppBar(
-          title: const Text('Ejercicio 6'),
+          title: Text('Ejercicio 6', style: Theme.of(context).textTheme.titleSmall),
         ),
 
         // Cuerpo del Programa

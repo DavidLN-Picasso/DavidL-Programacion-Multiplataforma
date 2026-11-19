@@ -1,4 +1,4 @@
-import 'screens/imports.dart';
+import 'imports.dart';
 
 class HomeScreen extends StatelessWidget {
     const HomeScreen({super.key});

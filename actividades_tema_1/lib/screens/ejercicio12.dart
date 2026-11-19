@@ -42,9 +42,8 @@ class _Ejercicio12 extends State<Ejercicio12> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.white,
         appBar: AppBar(
-          title: Text("Colores Random"),
+          title: Text("Colores Random", style: Theme.of(context).textTheme.titleSmall),
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

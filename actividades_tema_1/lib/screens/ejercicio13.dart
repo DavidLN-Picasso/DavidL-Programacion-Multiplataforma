@@ -13,6 +13,17 @@ class _Ejercicio13 extends State<Ejercicio13> {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold (
+      
+      appBar: AppBar(
+        title: Text("Ejercicio 13", style: Theme.of(context).textTheme.titleSmall),
+      ),
+
+
+      // Llamo a mi Drawer
+
+      drawer: MiDrawer(),
+
+    );
   }
 }

@@ -4,9 +4,14 @@ export 'package:extra_weight_text_style/extra_weight_text_style.dart';
 export 'dart:math';
 export 'dart:async';
 
+// Tema
+
+export '../themes/tema.dart';
+export '../themes/paleta.dart';
+
 // Screens
 
-export '../home_screen.dart';
+export 'home_screen.dart';
 export 'menu_lateral.dart';
 export 'ejercicio1.dart';
 export 'ejercicio2.dart';
