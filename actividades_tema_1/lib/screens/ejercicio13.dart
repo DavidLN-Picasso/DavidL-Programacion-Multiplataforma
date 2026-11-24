@@ -11,7 +11,7 @@ class _Ejercicio13 extends State<Ejercicio13> {
 
   // Variables
 
-  String rutaImagen = "assets/images/tepig_cara.png";
+  List<String> rutaImagenes = ["assets/images/tepig_cara.png","assets/images/goombario.png","assets/images/anamari.png"];
   int puntos = 0;
 
   @override
@@ -28,7 +28,7 @@ class _Ejercicio13 extends State<Ejercicio13> {
         Padding(padding:EdgeInsetsGeometry.all(15) , child: Text("MiniJuego de Pulsar una Imagen",
         style: TextStyle(fontSize: 20))),
         Text("Tienes $puntos puntos", style: TextStyle(fontSize: 20)),
-        GestureDetector(onTap: sumarPunto ,child: Image(image: AssetImage(rutaImagen), width: 150))
+        GestureDetector(onTap: sumarPunto, child: Image(image: AssetImage(rutaImagenes[2]), width: 130))
 
       ])),
 
@@ -72,7 +72,6 @@ class _Ejercicio13 extends State<Ejercicio13> {
   void initState() {
 
     super.initState();
-    sumarPunto();
 
   }
 

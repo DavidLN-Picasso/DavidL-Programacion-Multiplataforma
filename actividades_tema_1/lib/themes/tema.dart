@@ -4,7 +4,7 @@ class MiTema {
 
   // Tema Claro
 
-  static ThemeData get modoClaro {
+  static ThemeData modoClaro() {
 
     return ThemeData(
 
@@ -24,11 +24,12 @@ class MiTema {
 
   // Tema Oscuro
 
- /* static ThemeData get modoOscuro {
+ static ThemeData modoOscuro() {
 
     return ThemeData(
 
       useMaterial3: true,
+      brightness: Brightness.dark,
       scaffoldBackgroundColor: MiPaleta.colorFondoOscuro,
       appBarTheme: AppBarTheme(
         backgroundColor: MiPaleta.fondoAppBarOscuro,
@@ -40,6 +41,6 @@ class MiTema {
       ),
       listTileTheme: ListTileThemeData(tileColor: MiPaleta.listTileFondoOscuro)
     );
-  } */
+  }
 
 }

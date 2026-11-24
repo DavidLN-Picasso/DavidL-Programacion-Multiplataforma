@@ -96,6 +96,8 @@ flutter:
     - assets/images/ejercicio11/cucaracha.png
     - assets/images/tepig_poyo.jpg
     - assets/images/tepig_cara.png
+    - assets/images/goombario.png
+    - assets/images/anamari.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
