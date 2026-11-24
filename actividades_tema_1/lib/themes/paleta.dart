@@ -1,4 +1,4 @@
-import '../screens/imports.dart';
+import '../screens/exports.dart';
 
 abstract final class MiPaleta {
 

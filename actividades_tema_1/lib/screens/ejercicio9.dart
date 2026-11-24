@@ -1,4 +1,4 @@
-import 'imports.dart';
+import 'exports.dart';
 
 class Ejercicio9 extends StatelessWidget {
   const Ejercicio9({super.key});
